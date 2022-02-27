@@ -1,0 +1,41 @@
+.container{
+    margin: 100px auto;
+}
+.question{
+
+}
+.answer{
+    display: none;
+}
+.show-text .answer{
+    display: block !important;
+}
+.divider{
+    border: 1px solid black;
+    margin: 5px 0;
+}
+.plus-icon,.minus-icon{
+    font-size:25px ;
+}
+.btn{
+    transition: 0.5s;
+}
+.btn:hover{
+    transform: rotate(90deg);
+}
+.btn:active{
+    outline: none !important;
+}
+.btn:focus{
+    outline: none !important;
+    box-shadow: 0 0 0 !important;
+}
+.minus-icon{
+    display: none;
+}
+.show-text .minus-icon{
+    display: block !important;
+}
+.show-text .plus-icon{
+    display: none !important;
+}
