@@ -1,0 +1,25 @@
+$primaryColor : rgb(10, 238, 29);
+$secondaryColor : #494d4d;
+$border-radius: 10px;
+$padding : 10px;
+
+@mixin hTwo($w) {
+    color: $primaryColor;
+    background-color: $secondaryColor;
+    padding: $padding;
+    border-radius: $border-radius;
+    width: $w;
+}
+
+
+@import "./forHtwo";
+@import "./para";
+
+
+.header{
+    h2{
+        @include hTwo(50%);
+    }
+    
+}
+

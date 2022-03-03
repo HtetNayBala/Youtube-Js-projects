@@ -1,0 +1,25 @@
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  background-color: #0aee1d;
+}
+
+.para {
+  color: #0aee1d;
+  background-color: #494d4d;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.header h2 {
+  color: #0aee1d;
+  background-color: #494d4d;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */
